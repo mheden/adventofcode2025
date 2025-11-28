@@ -1,0 +1,25 @@
+from utils import puzzlefile, puzzlenum, slurp, unpack, assert_eq, digits
+import re
+
+
+def part1(s):
+    return 0
+
+
+def part2(s):
+    return 0
+
+
+puzzledata = slurp(puzzlefile(__file__))
+testdata1 = """
+"""
+
+print(f"#--- Day {puzzlenum(__file__)}.1: <name>:", end=" ")
+
+assert_eq(part1(testdata1), 0)
+print(part1(puzzledata))
+
+# print(f"#--- Day {puzzlenum(__file__)}.2: <name>:", end=" ")
+
+# assert_eq(part2(testdata2), 0)
+# print(part2(puzzledata))
